@@ -1,4 +1,4 @@
-const decipher = (message, key) => {;
+const decipher = (message, key) => {
     let lkey = [];
     let sKey = key.toString();
     let rKey = sKey.repeat(message.length);
