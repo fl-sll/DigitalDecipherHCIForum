@@ -74,6 +74,7 @@ const decipher = (message, key) => {;
     console.log(deciphered);
 }
 
+//examples
 decipher([20,12,18,30,21], 1939);
 decipher([14,10,22,29,6,27,19,18,6,12,8], 1939);
 decipher([14,30,11,1,20,17,18,18], 1990);
